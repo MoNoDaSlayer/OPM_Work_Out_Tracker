@@ -1,0 +1,84 @@
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Use 'Roboto' or another anime-like font */
+}
+
+#background {
+    background: url('image.avif') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the container */
+}
+
+#exerciseList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.exercise {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000; /* Set the font color to black */
+}
+
+.progress {
+    width: 60px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-container input {
+    margin-right: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+#buttons button {
+    margin: 5px;
+    background-color: #000; /* Set button background color to black */
+    color: #fff; /* Set button font color to white */
+    border-radius: 5px; /* Set button border radius to 5px */
+    padding: 10px 20px; /* Adjust button padding as needed */
+    font-size: 16px; /* Adjust button font size as needed */
+    transition: background-color 0.3s, color 0.3s; /* Add smooth transition effect */
+}
+
+#buttons button:hover {
+    background-color: #555; /* Change button background color to grey on hover */
+    color: #000; /* Change button font color to black on hover */
+}
